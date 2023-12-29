@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Full-stack tourism Web-Application</title>
+    <link rel="stylesheet" href="./components/css/styles.css">
+    <link rel="stylesheet" href="./components/css/destination.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+
+    <!-- topbar area -->
+
+    <div class="topbar-area">
+        <div class="container">
+            <div class="left-topbar">
+                <ul class="topbar-list">
+
+                    <li><a href="https://.co/projects/html/and-tour/demo/index.html#!"><span>+91 234 567
+                                89</span></a></li>
+                    <li><a
+                            href="https://.co/projects/html/and-tour/demo/index.html#!"><span>20BCS6782@cuchd.in</span></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="right-topbar">
+                <ul class="topbar-list">
+                    <li><a href="https://.co/projects/html/and-tour/demo/index.html#!"><span>+91 234 567
+                                89</span></a></li>
+                    <li><a
+                            href="https://.co/projects/html/and-tour/demo/index.html#!"><span>20BCS6784@cuchd.in</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div class="marquee">
+        <marquee direction="left" BEHAVIOR="alternate" SCROLLAMOUNT="6">
+            <span id="txt1"> A CHANDIGARH UNIVERSITY PROJECT </span>
+            <span id="txt1"> A CHANDIGARH UNIVERSITY PROJECT </span>
+            <span id="txt1"> A CHANDIGARH UNIVERSITY PROJECT </span>
+            <span id="txt1"> A CHANDIGARH UNIVERSITY PROJECT </span>
+            <span id="txt1"> A CHANDIGARH UNIVERSITY PROJECT </span>
+            <span id="txt1"> A CHANDIGARH UNIVERSITY PROJECT </span>
+            <span id="txt1"> A CHANDIGARH UNIVERSITY PROJECT </span>
+            <span id="txt1"> A CHANDIGARH UNIVERSITY PROJECT </span>
+            <span id="txt1"> A CHANDIGARH UNIVERSITY PROJECT </span>
+
+            <!-- <span id="txt1">SALE </span> -->
+        </marquee>
+    </div>
+
+    <!-- topbar area end -->
+
+    <nav>
+        <div class="logo">
+            <img src="./assets/logo.jpg" alt="Logo Image">
+        </div>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-links " style="margin-top: 1.5vh;">
+            <li><a href="#home-link">HOME</a></li>
+            <li><a href="#destination-link">DESTINATIONS</a></li>
+            <li><a href="#packages-link">PACKAGES</a></li>
+            <li><a href="#">FAVOURITES</a></li>
+            <li><a href="#contact-link">CONTACT</a></li>
+            <li><button class="login-button" href="#"
+                    onClick="OpenNewWindow('https://accounts.google.com/v3/signin/identifier?dsh=S-418937917%3A1668827827053544&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&osid=1&passive=1209600&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=ARgdvAs7h6tPg7Kmg4_CQMq0lNIKmlvSQHOAQkJrbXULqo5Ytq4uQbJbPPS9ztq2lusPFqZxJBcw#inbox')">Login
+                    With Google</button>
+            </li>
+            <li><button class="join-button" href="#">About Us</button></li>
+        </ul>
+    </nav>
+    <!-- <script src="./components/js/script.js"></script> -->
+
+    <!-- Banner Area -->
+    <video playsinline autoplay muted loop>
+        <source src="./assets//Switzerland in 8K ULTRA HD HDR - Heaven of Earth (60 FPS).mp4" type="video/mp4">
+        <!-- <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video"> -->
+        Your browser does not support the video tag. I suggest you upgrade your browser.
+    </video>
+    <div class="overlay">
+        <div class="banner-text" id="home-link">
+            <h1 class="text-clipped"
+                style="color: rgb(249, 239, 227); font-size: 6vw; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: 600; letter-spacing: 3px;">
+                Explore the world Together</h1>
+        </div>
+
+    </div>
+    <div class="blur-content">
+
+
+        <!-- Search Page -->
+        <!-- Destination Page -->
+        <section id="top_destinations" class="section_padding_top">
+            <div class="container-bts">
+                <!-- Section Heading -->
+                <div class="row" id="destination-link">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="section_heading_center">
+                            <h2 style=" padding-top: 10px;
+                            font-family: 'Abril Fatface', cursive;
+                            letter-spacing: 2px;
+                            font-size: 4vw;">Top destinations</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                        <div class="destinations_content_box img_animation">
+                            <img src="./assets/destination1.png" alt="img">
+                            <div class="destinations_content_inner">
+                                <h2>Up to</h2>
+                                <div class="destinations_big_offer">
+                                    <h1>50</h1>
+                                    <h6><span>%</span> <span>Off</span></h6>
+                                </div>
+                                <h2>Holiday packages</h2>
+                                <a href="https://.co/projects/html/and-tour/demo/top-destinations.html"
+                                    class="btn-bts btn_theme btn_md">Book now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                                <div class="destinations_content_box img_animation">
+                                    <a href="https://.co/projects/html/and-tour/demo/top-destinations.html">
+                                        <img src="./assets/destination2.png" alt="img">
+                                    </a>
+                                    <div class="destinations_content_inner">
+                                        <h3><a href="http://127.0.0.1:5500/destination.html#">Seoul</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="destinations_content_box img_animation">
+                                    <a href="https://.co/projects/html/and-tour/demo/top-destinations.html">
+                                        <img src="./assets/destination3.png" alt="img">
+                                    </a>
+                                    <div class="destinations_content_inner">
+                                        <h3><a
+                                                href="https://.co/projects/html/and-tour/demo/top-destinations.html">Darjeeling</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="destinations_content_box img_animation">
+                                    <a href="https://.co/projects/html/and-tour/demo/top-destinations.html">
+                                        <img src="./assets/destination4.png" alt="img">
+                                    </a>
+                                    <div class="destinations_content_inner">
+                                        <h3><a
+                                                href="https://.co/projects/html/and-tour/demo/top-destinations.html">Malaysia</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                                <div class="destinations_content_box img_animation">
+                                    <a href="https://.co/projects/html/and-tour/demo/top-destinations.html">
+                                        <img src="./assets/destination5.png" alt="img">
+                                    </a>
+                                    <div class="destinations_content_inner">
+                                        <h3><a
+                                                href="https://.co/projects/html/and-tour/demo/top-destinations.html">Gangtok</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="destinations_content_box img_animation">
+                                    <a href="https://.co/projects/html/and-tour/demo/top-destinations.html">
+                                        <img src="./assets/destination6.png" alt="img">
+                                    </a>
+                                    <div class="destinations_content_inner">
+                                        <h3><a
+                                                href="https://.co/projects/html/and-tour/demo/top-destinations.html">Thailand</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="destinations_content_box img_animation">
+                                    <a href="https://.co/projects/html/and-tour/demo/top-destinations.html">
+                                        <img src="./assets/destination7.png" alt="img">
+                                    </a>
+                                    <div class="destinations_content_inner">
+                                        <h3><a
+                                                href="https://.co/projects/html/and-tour/demo/top-destinations.html">Australia</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                                <div class="destinations_content_box img_animation">
+                                    <a href="https://.co/projects/html/and-tour/demo/top-destinations.html">
+                                        <img src="./assets/destination8.png" alt="img">
+                                    </a>
+                                    <div class="destinations_content_inner">
+                                        <h3><a
+                                                href="https://.co/projects/html/and-tour/demo/top-destinations.html">London</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="destinations_content_box img_animation">
+                                    <a href="https://.co/projects/html/and-tour/demo/top-destinations.html">
+                                        <img src="./assets/destination1.png" alt="img">
+                                    </a>
+                                    <div class="destinations_content_inner">
+                                        <h3><a
+                                                href="https://.co/projects/html/and-tour/demo/top-destinations.html">USA</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="destinations_content_box">
+                                    <a href="https://.co/projects/html/and-tour/demo/top-destinations.html"
+                                        class="btn btn_theme btn_md w-100">View all</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Packages Page -->
+        <div class="row" id="packages-link">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="section_heading_center">
+                    <h2 style=" padding-top: 10px;
+                    font-family: 'Abril Fatface', cursive;
+                    letter-spacing: 2px;
+                    font-size: 4vw; margin-top: 15px;">Packages</h2>
+                </div>
+            </div>
+        </div>
+        <div class="packages-div">
+            <section id="destinations_area" class="section_padding_top">
+                <div class="container">
+                    <!-- Section Heading -->
+
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="tab-content" id="nav-tabContent1">
+                                <div class="tab-pane fade show active" id="nav-nepal" role="tabpanel"
+                                    aria-labelledby="nav-nepal-tab">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                                            <div class="tab_destinations_boxed">
+                                                <div class="tab_destinations_img">
+                                                    <a
+                                                        href="https://.co/projects/html/and-tour/demo/top-destinations.html"><img
+                                                            src="./assets/destination4.png" alt="img"></a>
+                                                </div>
+                                                <div class="tab_destinations_conntent">
+                                                    <h3><a
+                                                            href="https://.co/projects/html/and-tour/demo/top-destinations.html">Everest
+                                                            trek to Base Camp</a></h3>
+                                                    <p>Price starts at <span>$105.00</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                                            <div class="tab_destinations_boxed">
+                                                <div class="tab_destinations_img">
+                                                    <a
+                                                        href="https://.co/projects/html/and-tour/demo/top-destinations.html"><img
+                                                            src="./assets/destination4.png" alt="img"></a>
+                                                </div>
+                                                <div class="tab_destinations_conntent">
+                                                    <h3><a
+                                                            href="https://.co/projects/html/and-tour/demo/top-destinations.html">Kathmundu
+                                                            tour</a></h3>
+                                                    <p>Price starts at <span>$85.00</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                                            <div class="tab_destinations_boxed">
+                                                <div class="tab_destinations_img">
+                                                    <a
+                                                        href="https://.co/projects/html/and-tour/demo/top-destinations.html"><img
+                                                            src="./assets/destination4.png" alt="img"></a>
+                                                </div>
+                                                <div class="tab_destinations_conntent">
+                                                    <h3><a
+                                                            href="https://.co/projects/html/and-tour/demo/top-destinations.html">Beautiful
+                                                            pokhara</a></h3>
+                                                    <p>Price starts at <span>$100.00</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                                            <div class="tab_destinations_boxed">
+                                                <div class="tab_destinations_img">
+                                                    <a
+                                                        href="https://.co/projects/html/and-tour/demo/top-destinations.html"><img
+                                                            src="./assets/destination4.png" alt="img"></a>
+                                                </div>
+                                                <div class="tab_destinations_conntent">
+                                                    <h3><a
+                                                            href="https://.co/projects/html/and-tour/demo/top-destinations.html">Annapurna
+                                                            region</a></h3>
+                                                    <p>Price starts at <span>$75.00</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                                            <div class="tab_destinations_boxed">
+                                                <div class="tab_destinations_img">
+                                                    <a
+                                                        href="https://.co/projects/html/and-tour/demo/top-destinations.html"><img
+                                                            src="./assets/destination4.png" alt="img"></a>
+                                                </div>
+                                                <div class="tab_destinations_conntent">
+                                                    <h3><a
+                                                            href="https://.co/projects/html/and-tour/demo/top-destinations.html">Chitwan
+                                                            national park</a></h3>
+                                                    <p>Price starts at <span>$105.00</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                                            <div class="tab_destinations_boxed">
+                                                <div class="tab_destinations_img">
+                                                    <a href="#"><img src="./assets/destination4.png" alt="img"></a>
+                                                </div>
+                                                <div class="tab_destinations_conntent">
+                                                    <h3><a
+                                                            href="https://.co/projects/html/and-tour/demo/top-destinations.html">Langtang
+                                                            region</a></h3>
+                                                    <p>Price starts at <span>$105.00</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Contact Us Page -->
+        <section id="contact-us">
+            <section style="background-color: rgba(0, 0, 0, 0.578);">
+                <div id="contact-link" class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+                    <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white"
+                        style=" padding-top: 10px;
+                    font-family: 'Abril Fatface', cursive;
+                    letter-spacing: 2px;
+                    font-size: 4vw;">
+                        Contact Us</h2>
+                    <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Got an
+                        important question? Want to send feedback about your experience? Need details about our Business
+                        plan? Let us know.</p>
+                    <form action="#" class="space-y-8">
+                        <div>
+                            <label for="email"
+                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your
+                                email</label>
+                            <input type="email" id="email"
+                                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                                placeholder="name@cuchd.in" required>
+                        </div>
+                        <div>
+                            <label for="subject"
+                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
+                            <input type="text" id="subject"
+                                class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                                placeholder="Let us know how we can help you" required>
+                        </div>
+                        <div class="sm:col-span-2">
+                            <label for="message"
+                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your
+                                message</label>
+                            <textarea id="message" rows="6"
+                                class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                                placeholder="Leave a comment..."></textarea>
+                        </div>
+                        <button type="submit"
+                            class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 "
+                            style="border: 2px solid white;">Send
+                            Message</button>
+                    </form>
+                </div>
+            </section>
+        </section>
+        <!-- 
+    <div>
+        <h3>
+
+            Voyage vers la lune
+        </h3>
+    </div> -->
+        <!-- footer -->
+        <div class="gs-footerMainConatiner" style=" background-color: black;">
+            <div class="gs-footerDataContainer">
+                <div class="gs-footerInnerContainer">
+                    <div class="gs-about-us">
+                        <div class="gs-footHeader">
+                            <h4 style=" padding-top: 10px; font-family: 'Abril Fatface' , cursive; letter-spacing: 2px;
+                                font-size: 4vw;">About Us</h4>
+                        </div>
+                        <div class="gs-footBody" style="color: white;">
+                            A Fullstack travel website for those who seek something more from voyages, who want to
+                            explore the unexplored and dig deep into the depths where other people wont dare!
+                        </div>
+                    </div>
+                    <div class="gs-fotLinks">
+                        <div class="gs-footHeader">
+                            <p style=" font-family: 'Abril Fatface' , cursive; letter-spacing: 2px;
+                            font-size: 2vw;">Links</p>
+                        </div>
+                        <div class="gs-footBody">
+                            <ul class="gs-links-list">
+                                <li><a>Research</a></li>
+                                <li><a>How we hire</a></li>
+                                <li><a>Timeline</a></li>
+                                <li><a>Learn More</a></li>
+                                <li><a>Chandigarh University</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="gs-fotLinks">
+                        <div class="gs-footHeader">
+                            BUILT BY
+                        </div>
+                        <div class="gs-footBody">
+                            <ul class="gs-links-list">
+                                <li><a>Shrishty 20BCS6784</a></li>
+                                <li><a>Monarch 20BCS6782</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr class="gs-footerHr">
+                <div class="gs-footerInnerContainer">
+                    <div class="gs-fotter-left">
+                        Copyright © 2022 All Rights Reserved by <a>Chandigarh University</a>.
+                    </div>
+                    <div class="gs-fotter-right">
+                        <a class="gs-social-icon">
+                            <?xml version="1.0" encoding="iso-8859-1"?><svg version="1.1" id="Capa_1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                y="0px" viewBox="0 0 23.101 23.101" style="enable-background:new 0 0 23.101 23.101;"
+                                xml:space="preserve">
+                                <g>
+                                    <path
+                                        d="M8.258,4.458c0-0.144,0.02-0.455,0.06-0.931c0.043-0.477,0.223-0.976,0.546-1.5c0.32-0.522,0.839-0.991,1.561-1.406 C11.144,0.208,12.183,0,13.539,0h3.82v4.163h-2.797c-0.277,0-0.535,0.104-0.768,0.309c-0.231,0.205-0.35,0.4-0.35,0.581v2.59h3.914 c-0.041,0.507-0.086,1-0.138,1.476l-0.155,1.258c-0.062,0.425-0.125,0.819-0.187,1.182h-3.462v11.542H8.258V11.558H5.742V7.643 h2.516V4.458z" />
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                </g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                            </svg>
+                        </a>
+                        <a class="gs-social-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                            </svg></a>
+                        <a class="gs-social-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg></a>
+                        <a class="gs-social-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path
+                                    d="M24 11.779c0-1.459-1.192-2.645-2.657-2.645-.715 0-1.363.286-1.84.746-1.81-1.191-4.259-1.949-6.971-2.046l1.483-4.669 4.016.941-.006.058c0 1.193.975 2.163 2.174 2.163 1.198 0 2.172-.97 2.172-2.163s-.975-2.164-2.172-2.164c-.92 0-1.704.574-2.021 1.379l-4.329-1.015c-.189-.046-.381.063-.44.249l-1.654 5.207c-2.838.034-5.409.798-7.3 2.025-.474-.438-1.103-.712-1.799-.712-1.465 0-2.656 1.187-2.656 2.646 0 .97.533 1.811 1.317 2.271-.052.282-.086.567-.086.857 0 3.911 4.808 7.093 10.719 7.093s10.72-3.182 10.72-7.093c0-.274-.029-.544-.075-.81.832-.447 1.405-1.312 1.405-2.318zm-17.224 1.816c0-.868.71-1.575 1.582-1.575.872 0 1.581.707 1.581 1.575s-.709 1.574-1.581 1.574-1.582-.706-1.582-1.574zm9.061 4.669c-.797.793-2.048 1.179-3.824 1.179l-.013-.003-.013.003c-1.777 0-3.028-.386-3.824-1.179-.145-.144-.145-.379 0-.523.145-.145.381-.145.526 0 .65.647 1.729.961 3.298.961l.013.003.013-.003c1.569 0 2.648-.315 3.298-.962.145-.145.381-.144.526 0 .145.145.145.379 0 .524zm-.189-3.095c-.872 0-1.581-.706-1.581-1.574 0-.868.709-1.575 1.581-1.575s1.581.707 1.581 1.575-.709 1.574-1.581 1.574z" />
+                            </svg></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./components/js/script.js"></script>
+</body>
+
+</html>
